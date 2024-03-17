@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    
+}
+
+.logo img{
+    width: 55px;
+}
+
+.chip{
+    width: 55px;
+}
+
+
+
+.container{
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.9);
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+}
+.logo{
+    display: flex;
+}
+.logo .card-name{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .card-number{
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom:10px;
+    letter-spacing:1px;
+    font-size: 25px;
+}
+.container .name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name .user-name{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.name .exp-date{
+    margin-top:0px;
+}
+.name .exp-date .exp{
+    font-size: 14px;
+}
+
+.name .exp-date .date{
+    font-size: 18px;
+}
